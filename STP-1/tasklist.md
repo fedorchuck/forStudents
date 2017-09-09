@@ -36,3 +36,73 @@ Questions for laboratory work are given below, but they are approximate. During 
 - What is the Gradle/Maven/Ant? Why should we use builds tools? Gradle's tasks
 - What is github? How create and push commit to repository?
 - What is artefact/group id?
+
+#### Lab 2
+##### Lab 2 task
+1) Write a program that asks the user the number of array elements, then in
+loop the user enter values for each item.
+
+variant | task
+:------------------------:|:------
+1 | Find the number of positive items; <br/> Find the sum of the elements that are larger than 3; <br/> Find the maximum element of the array; <br/> Find the number of negative elements; <br/> Find the sum of negative elements; <br/> Find the minimum element that is multiple 5;
+2 | Find the number of paired items; <br/> Find the sum of the elements multiplied by 3; <br/> Find the difference between the maximum and the minimum elements array; <br/> Find the arithmetic mean of the array; <br/> Find the sum of the largest and smallest elements of the array; <br/> Find the maximum by module element of the array
+3 | Find the arithmetic mean of the paired array elements;<br/> Find the sum of the minimum positive element of the array and his numbers;<br/> Find the product of the most negative and the smallest paired elements of the array; <br/> Find the number of items that are multiple 5; <br/> Find the sum of the paired elements of the array standing on odd places; <br/> Find the sum of the second and most positive elements array
+4 | Find the geometric mean of paired array elements; <br/> Find the largest number by module of the array element; <br/> Find the maximum paired item in the array; <br/> Determine the arithmetic mean of the minimum elements of the array; <br/> Find the module-minimized array element; <br/> Find the sum of items in the interval [0; 10]
+5 | Determine the mean geometric numbers of the maximum and minimum elements of the array; <br/> Find the difference between positive and negative integers of an array; <br/> Find the number of positive elements of the array; <br/> Find the sum of negative items; <br/> Find the sum of array elements in which the index is multiple 3; <br/> Find the product of the largest and smallest elements of the array
+2) Weekend parameters such as the array dimension are entered from the keyboard, the contents of the array generate with `Random#nextInt`. After the user inputs the dimension to generate the matrix, and output take it to the screen, then complete the task and display the result.
+
+variant | task
+:------------------------:|:------
+1 | Given an integer square matrix of order 8. Find the least of the values of the column items that have the largest amount of modules elements of If there are several columns, then take the first one.; <br/> The given positive integer n is an integer square matrix of order `n` Obtain `bi, ..., bn`, where `bi` is: a) the least of the values of the elements that are at the beginning of the `i`-th matrix line to the element belonging to the main diagonal including; b) the value of the first in the order of the positive element of the `i`-th line (if there are no such elements, then take `bi = l`).
+2 | The given positive integer `n` is an integer square matrix of order `n`. Get `bi, ..., bn`, where `bi` is: a) the sum of the elements located behind the first negative element in `i`-th line (if all elements of the line are non-negative, take `bi = 100`); b) the sum of the elements preceding the last negative element `i`-th line (if all elements of the line are non-negative, then take `bi = -l`).; <br/> An integer matrix of order `n` is given. Find line numbers: a) all elements of which are zeros; b) the elements in each of them are the same.
+3 | An integer matrix of order `n` is given. Find line numbers: a) all elements of which are even; b) the elements of each of them form a monotonous sequence (monotonically decreasing or monotonically increasing).; <br/> This is a valid square matrix of order 10. In lines with negative element on the main diagonal find: a) the sum of all elements; b) the largest of all elements.
+4 | This is a valid square matrix of order `n`. Consider those elements which are located in rows starting with a negative element.; <br/> Find the sum of those that are located respectively below, above and on main diagonal; <br/> This is a valid square matrix of order 9. Obtain an integer square matrix of the same order in which the element is equal to one, if the corresponding element of the output matrix is greater than an element, located in its line on the main diagonal, otherwise is zero
+5 | This is a valid square matrix of order `n`. Get meaning `x1*xn + x2*x(n-1) + ... + xk*x1`; where `xk` is the largest value of `k`-th elements line of this matrix. ; <br/> The given positive integer `n>2` is a real square matrix of order `n`. Construct a sequence `bi, ..., bn` from zeros and units, in which `bi = 1` then and only then count
+
+##### Lab 2 questions
+Possible theoretical questions (questions will not be limited to this list):
+- How to find out the size of the array
+- How to find out the size of a multidimensional array
+- How to display the contents of the array on the screen
+- What is an array?
+- Based on which two-dimensional arrays are constructed
+- What is a pseudo-random number generator.
+
+#### Lab 3
+##### Lab 3 task
+ - Create an array of numbers that consists of 150 elements. The contents of the array generate with Random#nextInt. 
+ - Implement five types of data sorts.
+ - Use two libraries to sort the data.
+ - Three times perform each of the sorts, including sorts with libraries, with the working time measurement of each of them. 
+ - Gather the performance (resources and time) metrics of your sorting and libraries sorting.
+ - The time for working of the each sort is output to the console.
+
+**Keep in mind:** Generate an array once, and all sorting algorithms, including libraries for sorting, should use this array. 
+
+variant | task
+:------------------------:|:------
+1 | bubble sort, insertion sort, quick sort, cycle sort, merge sort;
+2 | bubble sort, selection sort, quick sort, odd-even sort, merge sort;
+3 | bubble sort, comb sort, quick sort, shell sort, heap sort;
+4 | bubble sort, cocktail sort, quick sort, cycle sort, odd-even sort;
+5 | bubble sort, insertion sort, quick sort, selection sort, merge sort;
+6 | bubble sort, heap sort, quick sort, shell sort, selection sort;
+7 | bubble sort, insertion sort, quick sort, cycle sort, shell sort;
+8 | bubble sort, heap sort, quick sort, comb sort, cocktail sort;
+9 | bubble sort, odd-even sort, quick sort, cycle sort, comb sort;
+10| bubble sort, insertion sort, quick sort, heap sort, selection sort.
+
+##### Lab 3 questions
+- What is java types? Name all of them.  What is primitive data types? What is  reference data types? What is difference between all of them?
+- What is java operators? On which groups all java operators can be divided?  Know the difference and their use cases.
+- What is java keywords? Know most of them and the difference and their use cases.
+- Know the difference between used sorts. Select the most effective sorting by time and by resources. 
+- Depending on the amount of sorting data, will anything change?
+- What is :
+```groovy 
+public static void Main(String[] args){
+...
+}
+```
+
+
