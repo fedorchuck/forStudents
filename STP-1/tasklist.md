@@ -18,7 +18,10 @@ Questions for laboratory work are given below, but they are approximate. During 
 - [Lab 3](#lab-3)
   - [Task](#lab-3-task)
   - [Questions](#lab-3-questions)
- 
+- [Lab 4](#lab-4)
+  - [Task](#lab-4-task)
+  - [Questions](#lab-4-questions)
+  
 #### Lab 1
 ##### Lab 1 task
 1) Create a repository on the github.com. If the repository is private, the student should 'invite' me to his repository
@@ -105,4 +108,15 @@ public static void Main(String[] args){
 }
 ```
 
+#### Lab 4
+##### Lab 4 task
+1) assemble your previous labs in one project
+2) fix bugs (static methods and other)
+3) refactor your code (each sort method in another class, which implement your interface sort and other best practice with OOP)
+4) cover all your code by unit test, code coverage should be more then 80%.
+5) connect CI for your test (codecov.io and appveyor.com)
+6) CI should run your junit test for java 6, java 7, java 8. 
+7) add widgets for each CI in your readme
 
+##### Lab 4 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
