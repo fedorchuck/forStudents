@@ -114,9 +114,13 @@ public static void Main(String[] args){
 2) fix bugs (static methods and other)
 3) refactor your code (each sort method in another class, which implement your interface sort and other best practice with OOP)
 4) cover all your code by unit test, code coverage should be more then 80%.
-5) connect CI for your test (codecov.io and appveyor.com)
+5) connect CI for your test [travis-ci.org](https://travis-ci.org)
 6) CI should run your junit test for java 6, java 7, java 8. 
 7) add widgets for each CI in your readme
+8) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 4 - 8:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
 
 ##### Lab 4 questions
 Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
