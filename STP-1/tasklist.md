@@ -21,6 +21,9 @@ Questions for laboratory work are given below, but they are approximate. During 
 - [Lab 4](#lab-4)
   - [Task](#lab-4-task)
   - [Questions](#lab-4-questions)
+- [Lab 5](#lab-5)
+  - [Task](#lab-5-task)
+  - [Questions](#lab-5-questions)
   
 #### Lab 1
 ##### Lab 1 task
@@ -123,4 +126,34 @@ Advices for steps 4 - 8:
 write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
 
 ##### Lab 4 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
+
+#### Lab 5
+##### Lab 5 task
+1) serialize \ deserialize using Jackson, Org.JSON and Google GSON object like below. **Keep in mind:** In class, fields should have name like `fieldNumber`.
+```json
+{
+	"field_number": 1,
+	"field_string": "qwerty",
+	"field_object": {
+		"field_number": 1,
+		"field_string": "qwerty"
+	},
+	"field_map": {
+		"field_string": "qwerty",
+		"field_number": 1
+	}
+}
+```
+2) gather the performance (resources and time) metrics
+3) cover all your code by unit test, code coverage should be more then 80%.
+4) connect CI for your test [travis-ci.org](https://travis-ci.org)
+5) CI should run your junit test for java 8. 
+6) add widgets for each CI in your readme
+7) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 3 - 7:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
+
+##### Lab 5 questions
 Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
