@@ -24,7 +24,12 @@ Questions for laboratory work are given below, but they are approximate. During 
 - [Lab 5](#lab-5)
   - [Task](#lab-5-task)
   - [Questions](#lab-5-questions)
-  
+- [Lab 6](#lab-6)
+  - [Task](#lab-6-task)
+  - [Questions](#lab-6-questions)
+- [Lab 7](#lab-7)
+  - [Task](#lab-7-task)
+  - [Questions](#lab-7-questions)
 #### Lab 1
 ##### Lab 1 task
 1) Create a repository on the github.com. If the repository is private, the student should 'invite' me to his repository
@@ -156,4 +161,65 @@ Advices for steps 3 - 7:
 write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
 
 ##### Lab 5 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
+
+#### Lab 6
+##### Lab 6 task
+1) We have provided a file called `wordsforproblem.txt` (in dropbox folder) which contains a sorted list of
+approximately 173,000 words. The words are listed one word per line, do not contain spaces,
+and are all lowercase.
+Your task is to write a program that reads the file and provides the following:
+- the longest concatenated word (that is, the longest word that is comprised entirely of
+shorter words in the file)
+- the 2nd longest concatenated word
+- the total count of all the concatenated words in the file
+For example, if the file contained: 
+```
+cat
+cats
+catsdogcats
+dog
+dogcatsdog
+hippopotamuses
+rat
+ratcatdogcat
+```
+The longest concatenated word would be `ratcatdogcat` with 12 characters. `hippopotamuses` is
+a longer word, however it is not comprised entirely of shorter words in the list. The 2nd longest
+concatenated word is `catsdogcats` with 11 characters. The total number of concatenated words
+is 3. Note that `cats` is not a concatenated word because there is no word `s` in the list.
+
+Your solution:
+- the longest and 2nd longest concatenated words
+- the total count of concatenated words in the file
+
+This is your opportunity to demonstrate your problem-solving abilities, coding skills, and knowledge of software engineering principles. In addition to speed and accuracy, your solution will be judged on elegance, efficiency, and style.
+
+2) gather the performance (resources and time) metrics
+3) cover all your code by unit test, code coverage should be more then 80%.
+4) connect CI for your test [travis-ci.org](https://travis-ci.org)
+5) CI should run your junit test for java 8. 
+6) add widgets for each CI in your readme
+7) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 3 - 7:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
+
+##### Lab 6 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
+
+#### Lab 7
+##### Lab 7 task
+1) We have `javax.validation.*`. You should use [hibernate-validator](http://hibernate.org/validator/documentation/getting-started/) to create object model (10 fields with different types) with annotations from `javax.validation.constraints.*` 
+2) gather the performance (resources and time) metrics
+3) cover all your code by unit test, code coverage should be more then 80%.
+4) connect CI for your test [travis-ci.org](https://travis-ci.org)
+5) CI should run your junit test for java 8. 
+6) add widgets for each CI in your readme
+7) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 3 - 7:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
+
+##### Lab 7 questions
 Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
