@@ -30,6 +30,13 @@ Questions for laboratory work are given below, but they are approximate. During 
 - [Lab 7](#lab-7)
   - [Task](#lab-7-task)
   - [Questions](#lab-7-questions)
+- [Lab 8](#lab-8)
+  - [Task](#lab-8-task)
+  - [Questions](#lab-8-questions)
+- [Lab 9](#lab-9)
+  - [Task](#lab-9-task)
+  - [Questions](#lab-9-questions)
+  
 #### Lab 1
 ##### Lab 1 task
 1) Create a repository on the github.com. If the repository is private, the student should 'invite' me to his repository
@@ -222,4 +229,36 @@ Advices for steps 3 - 7:
 write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
 
 ##### Lab 7 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
+
+#### Lab 8
+##### Lab 8 task
+1) Using [github rest api](https://developer.github.com/v3/repos/) and [apache HttpClient](http://hc.apache.org/httpcomponents-client-ga/tutorial/html/index.html) get the list of the most "starred" repos and the most committed repositories (community made the largest number of commits) for 1 week (not last). Print 10 repositories (short information about the repository (name, description, language) and 5 account names, who made the most number of commits in this repository during this period of time).
+2) gather the performance (resources and time) metrics
+3) cover all your code by unit test, code coverage should be more then 80%.
+4) connect CI for your test [travis-ci.org](https://travis-ci.org)
+5) CI should run your junit test for java 8. 
+6) add widgets for each CI in your readme
+7) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 3 - 7:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
+
+##### Lab 8 questions
+Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
+
+#### Lab 9
+##### Lab 9 task
+1) Create tables: Users, Contributors, Repository owners, Repositories, Languages. Fill in all the tables you created with data from 8 labs. Collect the data for the last 8 weeks. Eliminate duplication. Write 5 queries to the database. For example, write requests that will output all users who committed in 3 or more repositories. Convert your query results into a data model and output them to the console. Use [PostgreSQL](https://www.tutorialspoint.com/postgresql/postgresql_java.htm) and [PreparedStatement](https://www.google.com.ua/search?client=ubuntu&channel=fs&q=java+preparedstatement&ie=utf-8&oe=utf-8&gfe_rd=cr&dcr=0&ei=jnP0WZ7XOvCA8Qfxo7XQBA).
+2) gather the performance (resources and time) metrics
+3) cover all your code by unit test, code coverage should be more then 80%.
+4) connect CI for your test [travis-ci.org](https://travis-ci.org)
+5) CI should run your junit test for java 8. 
+6) add widgets for each CI in your readme
+7) add [codecov.io](https://codecov.io) and [codacy.com](https://www.codacy.com)
+
+Advices for steps 3 - 7:
+write unit test -> setup travis for making builds from your repository -> connect codecov and codacy -> update your build.gradle -> add widgets to travise, codecov and codacy
+
+##### Lab 9 questions
 Questions will be by docs from https://www.dropbox.com/sh/139rfiwlelm1ra3/AABLwvrX2RSi6p935ust08Lxa
